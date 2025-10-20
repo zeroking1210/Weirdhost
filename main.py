@@ -20,9 +20,9 @@ class WeirdhostLogin:
         self.login_url = os.getenv('WEIRDHOST_LOGIN_URL', 'https://hub.weirdhost.xyz/auth/login')
         
         # 获取认证信息
-        self.remember_web_cookie = os.getenv('REMEMBER_WEB_COOKIE', '')
-        self.email = os.getenv('WEIRDHOST_EMAIL', '')
-        self.password = os.getenv('WEIRDHOST_PASSWORD', '')
+        self.remember_web_cookie = os.getenv('REMEMBER_WEB_COOKIE', 'eyJpdiI6IlA1UGhML3dMZjliaUhPdzI5MUdGWEE9PSIsInZhbHVlIjoiTGh4ZFovb1BMRGtGRzV3azNZQ0JoMmZBS05ZRks0TnM0ejJsRFNadGkzZlM3dmtZVFBWN3ErY1FKMlJaa3diR3grYW00Zys1aytmUE1aczhmcnFNd0JTYk5HWnhkbXl6cDRwVkw0Lzg4YTBoN3pHejVtRmUwNTdGYU9CS3dPeTQiLCJtYWMiOiJlMzQzODNhZDE0YjcxNmY5MGZjZTEyYjE0NzM1OTgwNTBkZDZiMzE2NDg4NDI0Y2Y3MDdjZjFmZmE2OTIwMzc0IiwidGFnIjoiIn0%3D')
+        self.email = os.getenv('WEIRDHOST_EMAIL', 'zeroking12108@gmail.com')
+        self.password = os.getenv('WEIRDHOST_PASSWORD', 'qweasdzxc123')
         
         # 浏览器配置
         self.headless = os.getenv('HEADLESS', 'true').lower() == 'true'
@@ -555,3 +555,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
